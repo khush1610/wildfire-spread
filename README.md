@@ -1,4 +1,4 @@
-# Next Day Wildfire Spread Prediction
+# Wildfire Spread Prediction
 
 ## Introduction
 This repository contains an implementation of the "Next Day Wildfire Spread: A Machine Learning Data Set to Predict Wildfire Spreading from Remote-Sensing Data" paper by Huot et al. (2021). The project uses a CNN Autoencoder to predict wildfire spread over a 64×64 grid, leveraging the Next Day Wildfire Spread Dataset. The model forecasts a 64×64×1 FireMask for the next day based on a 64×64×12 input, achieving an AUC-PR of 28.53%.
